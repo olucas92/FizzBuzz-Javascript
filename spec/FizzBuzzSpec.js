@@ -19,7 +19,10 @@ describe("FizzBuzz", function() {
       expect(fizzbuzz.isDivisibleByFive(5)).toBe(true);
     });
 
-    it()
+    it("is not divisible by 5", function(){
+      fizzbuzz = new FizzBuzz();
+      expect(fizzbuzz.isDivisibleByFive(7)).toBe(false)
+    });
 
   });
 

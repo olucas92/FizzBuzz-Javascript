@@ -12,10 +12,10 @@ FizzBuzz.prototype.playGame = function(number){
   else if(this.isDivisibleByThree(number)){
     return 'fizz';
   }
-
-  // else if(number){
-  //   return 'number'
-  // }
+  else
+  {
+    return 'number';
+  }
 
 };
 

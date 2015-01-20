@@ -52,10 +52,10 @@ describe("FizzBuzz", function() {
       expect(fizzbuzz.playGame(30)).toBe('fizzbuzz');
     })
 
-    // it("should return the number for all other numbers", function({
-    //   fizzbuzz = new FizzBuzz();
-    //   expect(fizzbuzz.playGame(28)).toBe(number)
-    // }))
+    it("should return the number for all other numbers", function(){
+      fizzbuzz = new FizzBuzz();
+      expect(fizzbuzz.playGame(28)).toBe('number');
+    })
 
 
   })

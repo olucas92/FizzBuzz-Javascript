@@ -7,11 +7,15 @@ FizzBuzz.prototype.playGame = function(number){
 
   else if(this.isDivisibleByFive(number)){
     return 'buzz';
-    
+
   }
   else if(this.isDivisibleByThree(number)){
     return 'fizz';
   }
+
+  // else if(number){
+  //   return 'number'
+  // }
 
 };
 

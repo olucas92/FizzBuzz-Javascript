@@ -22,7 +22,7 @@ This was our introduction to Javascript at Makers Academy, as always, it was dev
 <h2> How to clone this repository </h2>
 ----
 ```sh
-git clone https://github.com/olucas92/FizzBuzz.git
+https://github.com/olucas92/FizzBuzz-Javascript.git
 ```
 
 How to run tests
